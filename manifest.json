@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "DejAIvu",
+    "description": "A browser extension to detect AI-generated images on the web",
+    "version": "1.0",
+    "icons": {
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+    },
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["*://*/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "assets/icon48.png"
+    }
+}

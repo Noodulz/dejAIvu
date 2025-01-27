@@ -1,0 +1,12 @@
+# Node.js and Python artifacts
+node_modules/
+*.pyc
+__pycache__/
+
+# Model and large files
+tfjs_model/*
+!.gitkeep
+
+# OS/IDE files
+.DS_Store
+.vscode/
