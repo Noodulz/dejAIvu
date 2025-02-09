@@ -6,7 +6,11 @@ __pycache__/
 # Model and large files
 tfjs_model/*
 !.gitkeep
+model/data
 
 # OS/IDE files
 .DS_Store
 .vscode/
+
+# APIs
+model/.kaggle
