@@ -8,7 +8,7 @@
         "48": "assets/icon48.png",
         "128": "assets/icon128.png"
     },
-    "permissions": ["activeTab", "scripting", "storage"],
+    "permissions": ["storage", "activeTab", "scripting"],
     "host_permissions": ["*://*/*"],
     "background": {
         "service_worker": "background.js"
@@ -22,5 +22,14 @@
     "action": {
         "default_popup": "popup.html",
         "default_icon": "assets/icon48.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["model/praisebe.onnx", "lib/ort.min.js"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
     }
 }
