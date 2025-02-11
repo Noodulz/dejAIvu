@@ -19,3 +19,6 @@ model/aek/model.h5
 
 # APIs
 model/.kaggle
+
+# Misc
+outlines/
