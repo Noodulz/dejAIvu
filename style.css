@@ -18,3 +18,8 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+canvas {
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
