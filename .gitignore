@@ -11,6 +11,7 @@ model/*.keras
 model/*.txt
 model/aek/venv
 model/aek/convert.py
+model/aek/model.h5
 
 # OS/IDE files
 .DS_Store
