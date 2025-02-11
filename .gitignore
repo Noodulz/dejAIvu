@@ -7,6 +7,10 @@ __pycache__/
 tfjs_model/*
 !.gitkeep
 model/data
+model/*.keras
+model/*.txt
+model/aek/venv
+model/aek/convert.py
 
 # OS/IDE files
 .DS_Store
