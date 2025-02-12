@@ -22,7 +22,6 @@ model/images
 model/.kaggle
 
 # Misc
-outlines
-outlines/*
 *.pptx
 *.mp4
+assets/TEMPLATE_OVERLAY.png
