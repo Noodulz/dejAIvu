@@ -31,4 +31,4 @@ A browser extension to detect AI-generated images and overlay saliency maps to e
 
 6. **Test the Extension:**
    - Toggle the extension in the toolbar
-   - Scroll through the page to see the red overlays on detected images.
+   - Scroll through the page to see the green heat maps on detected images.
