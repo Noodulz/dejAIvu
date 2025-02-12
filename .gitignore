@@ -24,3 +24,5 @@ model/.kaggle
 # Misc
 outlines
 outlines/*
+*.pptx
+*.mp4
