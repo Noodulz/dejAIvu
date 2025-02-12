@@ -22,4 +22,5 @@ model/images
 model/.kaggle
 
 # Misc
-outlines/
+outlines
+outlines/*

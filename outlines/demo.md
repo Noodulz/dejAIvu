@@ -1,7 +1,6 @@
 
 ## **Title**
 DejAIvu: Identifying and Explaining AI Art in Real-Time with Saliency Maps
-
 ---
 
 ## **Abstract** *(~150 words)*
